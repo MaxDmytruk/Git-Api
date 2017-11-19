@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/MaxDmytruk/Git-Api.svg?branch=master)](https://travis-ci.org/MaxDmytruk/Git-Api)
