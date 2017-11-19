@@ -1,3 +1,4 @@
 [![Build Status](https://travis-ci.org/MaxDmytruk/Git-Api.svg?branch=master)](https://travis-ci.org/MaxDmytruk/Git-Api)
 [![codecov](https://codecov.io/gh/MaxDmytruk/Git-Api/branch/master/graph/badge.svg)](https://codecov.io/gh/MaxDmytruk/Git-Api)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7085117a4ea64b369c19d313d3d5220d)](https://www.codacy.com/app/MaxDmytruk/Git-Api?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MaxDmytruk/Git-Api&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/7085117a4ea64b369c19d313d3d5220d)](https://www.codacy.com/app/MaxDmytruk/Git-Api?utm_source=github.com&utm_medium=referral&utm_content=MaxDmytruk/Git-Api&utm_campaign=Badge_Coverage)
