@@ -13,11 +13,10 @@ dependencies {
     compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.3.4'
     compile group: 'org.json', name: 'json', version: '20171018'
 }
-
 jar {
     manifest {
         attributes(
-                'Main-Class': 'Main'
+                'Main-Class': 'Lab6'
         )
     }
 }
