@@ -10,10 +10,10 @@ import java.util.HashMap;
 import static org.junit.Assert.*;
 
 public class OrgJsonServiceTest {
-    static OrgJsonService service;
-    static String jsonRepository;
-    static String jsonArray;
-    static String jsonContributor;
+    private static OrgJsonService service;
+    private static String jsonRepository;
+    private static String jsonArray;
+    private static String jsonContributor;
 
     @BeforeClass
     public static void initJson(){
@@ -31,7 +31,7 @@ public class OrgJsonServiceTest {
 
     @Test
     public void deserializeToRepository() throws Exception {
-        ArrayList<Repository> target = service.DeserializeToRepository(jsonRepository);
+        ArrayList<Repository> target = service.deserializeToRepository(jsonRepository);
         assertEquals(1, target.size());
         Repository testRepos = target.get(0);
         assertEquals("test name", testRepos.getName());
@@ -44,7 +44,7 @@ public class OrgJsonServiceTest {
 
     @Test
     public void getContributors() throws Exception {
-        assertTrue(!service.getContributors(jsonContributor, new HashMap<>()).isEmpty());
+        assertFalse(service.getContributors(jsonContributor, new HashMap<>()).isEmpty());
     }
 
 }

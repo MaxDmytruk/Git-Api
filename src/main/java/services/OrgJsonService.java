@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class OrgJsonService {
-    public ArrayList<Repository> DeserializeToRepository(String json){
+    public ArrayList<Repository> deserializeToRepository(String json){
         JSONObject jsonObject = new JSONObject(json);
         JSONArray items = jsonObject.getJSONArray("items");
         ArrayList<Repository> repositories = new ArrayList<>();

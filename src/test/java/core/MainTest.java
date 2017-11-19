@@ -7,10 +7,6 @@ import static org.junit.Assert.*;
 
 public class MainTest {
     @Test
-    public void main() throws Exception {
-    }
-
-    @Test
     public void measure() throws Exception {
         assertEquals(0, Main.measure(new GitApiController()));
     }

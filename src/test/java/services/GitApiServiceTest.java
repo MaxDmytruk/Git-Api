@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class GitApiServiceTest {
-    static GitApiService service;
+    private static GitApiService service;
 
     @BeforeClass
     public static void initService(){

@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class ContributorTest {
-    static Contributor target;
+    private static Contributor target;
 
     @BeforeClass
     public static void initContributor(){

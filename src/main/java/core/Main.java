@@ -3,7 +3,6 @@ package core;
 import controllers.GitApiController;
 import models.Repository;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {

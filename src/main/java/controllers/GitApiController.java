@@ -6,7 +6,7 @@ import services.GitApiService;
 import java.util.List;
 
 public class GitApiController {
-    GitApiService gitApiServiceervice;
+    private GitApiService gitApiServiceervice;
 
     public GitApiController() {
         this.gitApiServiceervice = new GitApiService();

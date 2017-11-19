@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import static org.junit.Assert.*;
 
 public class RepositoryTest {
-    static Repository target;
-    static ArrayList<Contributor> test;
+    private static Repository target;
+    private static ArrayList<Contributor> test;
 
     @BeforeClass
     public static void initRepository(){

@@ -18,8 +18,8 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class GitApiService {
-    String token = "b43f2d2aa7ed2a702c9f93f5676b37d823ecd548";
-    OrgJsonService jsonService;
+    private String token = "b43f2d2aa7ed2a702c9f93f5676b37d823ecd548";
+    private OrgJsonService jsonService;
 
     public GitApiService() {
         jsonService = new OrgJsonService();
@@ -53,7 +53,7 @@ public class GitApiService {
                 }
                 String json = builder.toString();
                 System.out.println(json);
-                ArrayList<Repository> repositories = jsonService.DeserializeToRepository(json);
+                ArrayList<Repository> repositories = jsonService.deserializeToRepository(json);
                 for (Repository repository : repositories) {
                     System.out.println("---------------------------");
                     System.out.println("Name: " + repository.getName());
@@ -114,7 +114,7 @@ public class GitApiService {
                 String json = builder.toString();
                 System.out.println(json);
 
-                ArrayList<Repository> repositories = jsonService.DeserializeToRepository(json);
+                ArrayList<Repository> repositories = jsonService.deserializeToRepository(json);
                 return repositories;
             }
             return null;
